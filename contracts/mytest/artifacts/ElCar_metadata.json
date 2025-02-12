@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "drive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "speed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mytest/extend.sol": "ElCar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mytest/extend.sol": {
+			"keccak256": "0xf158ef4d0081682140d6e347e39140cd69655e104540fa75d2b11e3bab72a8c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://329b27de7bc4688f6735caf414e2a40b71bf79a62a41d2a9524c9a69e2ac0c15",
+				"dweb:/ipfs/QmcFQNmErf3bj5Z965GDbaMqXfS7V1G4eeCXPhkwqAgk84"
+			]
+		}
+	},
+	"version": 1
+}

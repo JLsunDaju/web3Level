@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "testLibrary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mytest/libraryTest2.sol": "LibraryTest2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mytest/libraryTest.sol": {
+			"keccak256": "0xcc3c85415728899775a72f02da62be247c4b76c28e024ff2fac0f37a8c8300c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a06148fd4aea8e307062ff0355b1937ae57eec906e898e67d864a5d00e8e7ce1",
+				"dweb:/ipfs/QmbyrpWeDDvp9apVu7Z5GcJUqBDhBBoN4yjjXSWoPCQwxP"
+			]
+		},
+		"contracts/mytest/libraryTest2.sol": {
+			"keccak256": "0x0f1706b54cfb7975af4bbd249bc240cb02727a24498970660b08796f6c5c01c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4c1d8e78271235dc15de31087764aaa26b41eac1d862621ebf6928f1377eadc",
+				"dweb:/ipfs/QmRgFgGiXTTgyurdbnWRsLMsKXBvzCxrURQbowj5rtPtiT"
+			]
+		}
+	},
+	"version": 1
+}

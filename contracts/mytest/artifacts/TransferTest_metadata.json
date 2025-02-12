@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Receive",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mytest/transfer.sol": "TransferTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mytest/transfer.sol": {
+			"keccak256": "0x955cf1c5dd7ea977dcc6b642c345ea0af6b247e791d04dd319956e26f4fd67b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a3961f277f84daf6c6f33bdda51a557264d235689aafed7d819f6c1778550b5",
+				"dweb:/ipfs/QmbFsTcjgFisb3GE8ZBbkKXGg7FML2BsakG4B7NJejX8Ka"
+			]
+		}
+	},
+	"version": 1
+}
